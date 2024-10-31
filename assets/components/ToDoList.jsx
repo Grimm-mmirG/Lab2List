@@ -29,8 +29,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'space-between',
     backgroundColor: '#3E3E3E', 
-    padding: 10, // Increased padding for a better touch target
-    borderColor: '#5C5E67', // Updated border color for consistency
+    padding: 10,     borderColor: '#5C5E67',
     borderRadius: 10,
     marginBottom: 10,
     shadowColor: '#000',
@@ -43,7 +42,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#555', 
   },
   taskText: {
-    fontSize: 18, // Slightly larger font size for better readability
+    fontSize: 18, 
     flex: 1,
     marginLeft: 10,
     color: '#FFFFFF', 
@@ -57,7 +56,7 @@ const styles = StyleSheet.create({
     height: 30,
     justifyContent: 'center',
     alignItems: 'center',
-    borderColor: '#5C5E67', // Updated border color for consistency
+    borderColor: '#5C5E67',
     borderWidth: 2,
     borderRadius: 5,
     marginRight: 15,
@@ -73,8 +72,8 @@ const styles = StyleSheet.create({
   deleteButton: {
     marginLeft: 10,
     padding: 5,
-    borderRadius: 5, // Added border radius for better appearance
-    backgroundColor: '#3E3E3E', // Match background for a cohesive look
+    borderRadius: 5,
+    backgroundColor: '#3E3E3E', 
   },
   deleteText: {
     color: '#FF3B30',

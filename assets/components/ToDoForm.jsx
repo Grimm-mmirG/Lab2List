@@ -22,29 +22,29 @@ const ToDoForm = ({ newTask, setNewTask, addTask }) => {
 const styles = StyleSheet.create({
   form: {
     flexDirection: 'row',
-    justifyContent: 'space-between', // Use space-between for better spacing
+    justifyContent: 'space-between', 
     alignItems: 'center',
     padding: 10,
     maxWidth: '100%',
-    backgroundColor: '#2c2f33', // Match the app background for consistency
-    borderRadius: 8, // Add a border radius for a smoother look
-    elevation: 5, // Add elevation for a shadow effect
+    backgroundColor: '#2c2f33', 
+    borderRadius: 8, 
+    elevation: 5, 
   },
   input: {
     flex: 1,
     borderWidth: 1,
     borderColor: '#5C5E67', 
     paddingHorizontal: 10,
-    paddingVertical: 12, // Increased padding for better touch targets
+    paddingVertical: 12, 
     borderRadius: 5,
     backgroundColor: '#3B3E45', 
     marginRight: 10,
     color: '#FFFFFF', 
-    fontSize: 16, // Increased font size for readability
+    fontSize: 16, 
   },
   addButton: {
     backgroundColor: '#6A5ACD', 
-    paddingVertical: 12, // Consistent button height
+    paddingVertical: 12, 
     paddingHorizontal: 20,
     borderRadius: 5,
     shadowColor: '#000',
